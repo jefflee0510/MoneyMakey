@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_balance"
+            android:checked="true"
+            android:icon="@mipmap/ic_attach_money_black_24dp"
+            android:title="Balance" />
+        <item
+            android:id="@+id/nav_transactions"
+            android:icon="@mipmap/ic_history_black_24dp"
+            android:title="Transactions" />
+        <item
+            android:id="@+id/nav_achievements"
+            android:icon="@mipmap/ic_star_rate_black_18dp"
+            android:title="Achievements" />
+        <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Sign Out" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Share" />
+    </group>
+
+
+</menu>

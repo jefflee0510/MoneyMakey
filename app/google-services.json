@@ -1,0 +1,239 @@
+{
+  "project_info": {
+    "project_number": "46725660559",
+    "firebase_url": "https://bits-b0aa3.firebaseio.com",
+    "project_id": "bits-b0aa3",
+    "storage_bucket": "bits-b0aa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46725660559:android:7e1ed3fd1e1e0bff",
+        "android_client_info": {
+          "package_name": "bits.rmit.moneymakey2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46725660559-1r020om1nq9jt0k19dlmj5nd8ds4enq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bits.rmit.moneymakey2",
+            "certificate_hash": "065c3e9eb8dda2debc701fc18b5ef01003b40776"
+          }
+        },
+        {
+          "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0M2Oxy4csq_VWThsNoczh1TflKLH6Q_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46725660559:android:1740e269dd605a6b",
+        "android_client_info": {
+          "package_name": "bits.rmit.moneymakey3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46725660559-9bc8b1vq6hglbni7crvl8ccahdtl3do1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bits.rmit.moneymakey3",
+            "certificate_hash": "065c3e9eb8dda2debc701fc18b5ef01003b40776"
+          }
+        },
+        {
+          "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0M2Oxy4csq_VWThsNoczh1TflKLH6Q_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46725660559:android:87fcb66cc6ca320a",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46725660559-8ta8qhe44b7ukpip1mhmdmvflcec4v5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.quickstart.auth",
+            "certificate_hash": "065c3e9eb8dda2debc701fc18b5ef01003b40776"
+          }
+        },
+        {
+          "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0M2Oxy4csq_VWThsNoczh1TflKLH6Q_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46725660559:android:ba11ebc623da3f5e",
+        "android_client_info": {
+          "package_name": "bits.rmit.moneymakey4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46725660559-u33tuv1jvl7jjrkp4smes549bbv5dqfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bits.rmit.moneymakey4",
+            "certificate_hash": "9ffd87f165d790ec2653df90628ae8c9b44ef51a"
+          }
+        },
+        {
+          "client_id": "46725660559-g4olkptkgjqbbb04p2j2b9at4oo0689s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bits.rmit.moneymakey4",
+            "certificate_hash": "065c3e9eb8dda2debc701fc18b5ef01003b40776"
+          }
+        },
+        {
+          "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0M2Oxy4csq_VWThsNoczh1TflKLH6Q_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46725660559:android:f32f9ece2d70e059",
+        "android_client_info": {
+          "package_name": "bits.rmit.moneymakey5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46725660559-ouoemptd9vkjqs8livb3abulcefp3vtf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bits.rmit.moneymakey5",
+            "certificate_hash": "065c3e9eb8dda2debc701fc18b5ef01003b40776"
+          }
+        },
+        {
+          "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0M2Oxy4csq_VWThsNoczh1TflKLH6Q_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46725660559-oes5d8m6bm1ttu9eo8s0vaq2e5ga0toh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

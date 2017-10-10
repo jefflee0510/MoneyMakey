@@ -11,14 +11,10 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="9dp"
-        android:layout_marginLeft="17dp"
-        android:layout_marginStart="17dp"
-        android:text="© The Money Makey team 2017"
-        android:textSize="16sp"
         android:layout_above="@+id/textView"
-        android:layout_toRightOf="@+id/progressBar"
-        android:layout_toEndOf="@+id/progressBar" />
+        android:layout_centerHorizontal="true"
+        android:text="The Money Makey team"
+        android:textSize="16sp" />
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleBtn"
@@ -82,10 +78,8 @@
         android:layout_height="wrap_content"
         android:text="© Money Makey 2017"
         android:textSize="16sp"
+        android:layout_marginBottom="19dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_marginBottom="11dp" />
-
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

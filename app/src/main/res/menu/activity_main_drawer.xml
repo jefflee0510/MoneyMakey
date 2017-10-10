@@ -8,20 +8,28 @@
             android:icon="@mipmap/ic_attach_money_black_24dp"
             android:title="Balance" />
         <item
-            android:id="@+id/nav_transactions"
+            android:id="@+id/nav_history"
             android:icon="@mipmap/ic_history_black_24dp"
-            android:title="Transactions" />
+            android:title="History" />
         <item
             android:id="@+id/nav_achievements"
-            android:icon="@mipmap/ic_star_rate_black_18dp"
+            android:icon="@mipmap/achievement"
             android:title="Achievements" />
         <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/settings"
+            android:title="Settings" />
+        <item
             android:id="@+id/nav_signOut"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@mipmap/signout"
             android:title="Sign Out" />
         <item
+            android:id="@+id/nav_rate"
+            android:icon="@mipmap/rate"
+            android:title="Rate us" />
+        <item
             android:id="@+id/nav_share"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/ic_menu_share"
             android:title="Share" />
     </group>
 

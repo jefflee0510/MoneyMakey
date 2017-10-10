@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="bits.rmit.moneymakey4.LoadingScreen">
+
+    <TextView
+        android:id="@+id/txtCopyrights1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Money Makey team"
+        android:textSize="16sp"
+        android:layout_above="@+id/txtCopyrights2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtCopyrights2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="© Money Makey 2017"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imgAppLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        app:srcCompat="@mipmap/app_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imgCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        app:srcCompat="@mipmap/coin"
+        android:layout_above="@+id/txtCopyrights1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtTips"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgCoin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text='"Move your bank accounts to take advantage of interest rates!"'
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -158,17 +158,19 @@ public class MainActivity extends AppCompatActivity
             MainFragment mainFragment = new MainFragment();
             manager.beginTransaction().replace(R.id.mainLayout, mainFragment).commit();
 
-        } else if (id == R.id.nav_transactions) {
+        } else if (id == R.id.nav_history) {
 
 
         } else if (id == R.id.nav_achievements) {
 
+        } else if (id == R.id.nav_settings) {
 
         } else if (id == R.id.nav_signOut) {
             mAuth.signOut();
             Auth.GoogleSignInApi.signOut(mGoogleApiClient);
             mGoogleApiClient.clearDefaultAccountAndReconnect();
 
+        } else if (id == R.id.nav_rate) {
 
         } else if (id == R.id.nav_share) {
 
@@ -180,5 +182,25 @@ public class MainActivity extends AppCompatActivity
     }
 
 
+    public void calculator()
+    {
+        int income = 0;
+        int percentage = 0;
+        int daily;
+        int overspent = 0;
+        int underspent = 0;
 
+        //income = txtIncome;?
+        daily = income/30 * (percentage/100);
+
+        if(overspent > 0)
+        {
+            daily -= overspent;
+        }
+
+        if(underspent > 0)
+        {
+            daily += underspent;
+        }
+    }
 }

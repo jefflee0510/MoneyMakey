@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="bits.rmit.moneymakey4.PostCalculated">
+
+    <TextView
+        android:id="@+id/txtOverspent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Overspent"
+        android:textSize="24sp"
+        android:layout_below="@+id/txtSave"
+        android:layout_alignRight="@+id/txtSave"
+        android:layout_alignEnd="@+id/txtSave" />
+
+    <ImageView
+        android:id="@+id/imgAppLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        app:srcCompat="@mipmap/app_logo" />
+
+    <TextView
+        android:id="@+id/txtSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgAppLogo"
+        android:layout_alignStart="@+id/imgAppLogo"
+        android:layout_below="@+id/txtGoal"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="casual"
+        android:text="Save $"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgAppLogo"
+        android:layout_alignStart="@+id/imgAppLogo"
+        android:layout_below="@+id/imgAppLogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif-monospace"
+        android:text="GOAL: "
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtSave"
+        android:layout_alignBottom="@+id/txtSave"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_toEndOf="@+id/txtGoal"
+        android:layout_toRightOf="@+id/txtGoal"
+        android:fontFamily="casual"
+        android:text="/day"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtExtraSaves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtOverspent"
+        android:layout_alignStart="@+id/txtOverspent"
+        android:layout_below="@+id/txtOverspent"
+        android:layout_marginTop="43dp"
+        android:text="Extra saves"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtExtraSavesInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtOverspentInput"
+        android:layout_alignStart="@+id/txtOverspentInput"
+        android:layout_alignTop="@+id/txtExtraSaves"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtOverspentInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txtOverspent"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/imgRedStroke"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/txtGoal"
+        android:layout_toLeftOf="@+id/txtOverspentInput"
+        android:layout_toStartOf="@+id/txtOverspentInput"
+        app:srcCompat="@mipmap/red_stroke" />
+
+</RelativeLayout>
